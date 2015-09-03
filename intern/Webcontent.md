@@ -18,25 +18,23 @@ Die Veranstaltung geht eine Woche (5 Tage). Dabei werden pro Tag ca. 4 Stunden m
 
 ## Wochenplan
 - Montag
-  - asdamBaum
+  - Programmieren lernen kurz und gut.
+  - Vertraut machen mit Asuro. (Sensordaten auslesen, Motoren ansprechen, Hyperterminal nutzen, ...)
 
 - Dienstag
-  - asdamBaum
+  - Asuro kalibrieren
+  - Projekt auswählen
+  - Projektarbeit
 
 - Mittwoch
-  - asdamBaum
+  - Projektarbeit
 
 - Donnerstag
-  - asdamBaum
+  - Projektarbeit
 
 - Freitag
-  - asdamBaum
-
-- Samstag
-  - asdamBaum
-
-- Sonntag
-  - asdamBaum
+  - Projekt fertig machen
+  - Präsentation
 
 # Projektvorschläge
 Eigene Ideen können natürlich auch gewählt werden. Am Besten einfach die Tutoren fragen.
