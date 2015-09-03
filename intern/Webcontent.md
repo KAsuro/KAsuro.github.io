@@ -1,8 +1,12 @@
-# Roboter programmieren lernen (Uni für Einsteiger)
-Lernt einen einfachen kleinen Roboter zu programmieren!
+# Roboter programmieren lernen (Schnupperstudium)
+Ihr wolltet schon immer mal einen Roboter programmieren? Dann seid ihr hier genau richtig. Ihr bekommt von uns einen Asuro-Roboter gestellt und wir zeigen euch, wie man ihn programmiert. Dabei arbeitet ihr in Teams und könnt selbst entscheiden, was der Asuro tun soll oder sucht euch einen unserer Vorschläge aus.
+
+Aber keine Angst, bei Problemen werden wir euch tatkräftig zur Seite stehen.
+
+Nähere Informationen findet ihr hier: http://kasuro.github.io/
 
 # Voraussetzungen
-Interesse am programmieren lernen, den Rest bekommt ihr beigebracht. Eigene Laptops dürfen mitgebracht werden, müsst ihr aber nicht. Vorkenntnisse in der Programmiersprache C sind von Vorteil, aber nicht notwendig.
+Das Wichtigste ist, dass ihr Interesse mitbringt. Alles was ihr wissen müsst, werden wir euch erklären. Natürlich könnt ihr auch Vorwissen mitbringen, aber das ist ganz klar keine Voraussetzung. Notebooks werden gestellt, aber ihr könnt gerne eure Eigenen mitbringen.
 
 # Der Roboter
 Der Asuro ist ein kleiner Roboter, der am DLR (Deutsches Zentrum für Luft- und Raumfahrt) entwickelt wurde. Er wird in der Programmiersprache C programmiert. Der Asuro besitzt diverse Sensoren, mit denen er auf seine Umwelt reagieren kann. Wie er auf die Sensordaten reagieren soll, bestimmt natürlich der Programmierer.
