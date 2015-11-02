@@ -1,0 +1,78 @@
+\beamer@endinputifotherversion {3.24pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\sectionentry {1}{Einleitung}{2}{Einleitung}{0}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{2}{Begr\IeC {\"u}\IeC {\ss }ung}}\headcommand {\beamer@subsectionpages {2}{1}}
+\headcommand {\slideentry {1}{1}{1}{2/2}{Begr\IeC {\"u}\IeC {\ss }ung}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\slideentry {1}{1}{2}{3/3}{Begr\IeC {\"u}\IeC {\ss }ung}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{4}{Hinweis!}}\headcommand {\beamer@subsectionpages {2}{3}}
+\headcommand {\slideentry {1}{2}{1}{4/4}{Hinweis!}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\sectionentry {2}{Projekt}{5}{Projekt}{0}}
+\headcommand {\beamer@sectionpages {2}{4}}
+\headcommand {\beamer@subsectionpages {4}{4}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{5}{Wochenplan}}\headcommand {\beamer@subsectionpages {5}{4}}
+\headcommand {\slideentry {2}{1}{1}{5/6}{Wochenplan}{0}}
+\headcommand {\beamer@framepages {5}{6}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{7}{M\IeC {\"o}gliche Projekte}}\headcommand {\beamer@subsectionpages {5}{6}}
+\headcommand {\slideentry {2}{2}{1}{7/7}{M\IeC {\"o}gliche Projekte}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\sectionentry {3}{C-Einf\IeC {\"u}hrung}{8}{C-Einf\IeC {\"u}hrung}{0}}
+\headcommand {\beamer@sectionpages {5}{7}}
+\headcommand {\beamer@subsectionpages {7}{7}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{8}{Verst\IeC {\"a}ndnis}}\headcommand {\beamer@subsectionpages {8}{7}}
+\headcommand {\slideentry {3}{1}{1}{8/8}{Verst\IeC {\"a}ndnis}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{9}{Funktionen}}\headcommand {\beamer@subsectionpages {8}{8}}
+\headcommand {\slideentry {3}{2}{1}{9/9}{Funktionen}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {3}{2}{2}{10/10}{Funktionen}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{11}{Variablen}}\headcommand {\beamer@subsectionpages {9}{10}}
+\headcommand {\slideentry {3}{3}{1}{11/11}{Variablen}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {3}{3}{2}{12/12}{Variablen}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{13}{Operationen}}\headcommand {\beamer@subsectionpages {11}{12}}
+\headcommand {\slideentry {3}{4}{1}{13/13}{Operationen}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@subsectionentry {0}{3}{5}{14}{Verzweigungen}}\headcommand {\beamer@subsectionpages {13}{13}}
+\headcommand {\slideentry {3}{5}{1}{14/14}{Verzweigungen}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {3}{5}{2}{15/15}{Verzweigungen}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\beamer@subsectionentry {0}{3}{6}{16}{Schleifen}}\headcommand {\beamer@subsectionpages {14}{15}}
+\headcommand {\slideentry {3}{6}{1}{16/16}{Schleifen}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {3}{6}{2}{17/17}{Schleifen}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\beamer@subsectionentry {0}{3}{7}{18}{Compiler Stuff ... -.-}}\headcommand {\beamer@subsectionpages {16}{17}}
+\headcommand {\slideentry {3}{7}{1}{18/19}{Compiler Stuff ... -.-}{0}}
+\headcommand {\beamer@framepages {18}{19}}
+\headcommand {\sectionentry {4}{Asuro}{20}{Asuro}{0}}
+\headcommand {\beamer@sectionpages {8}{19}}
+\headcommand {\beamer@subsectionpages {18}{19}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{20}{Aufbau}}\headcommand {\beamer@subsectionpages {20}{19}}
+\headcommand {\slideentry {4}{1}{1}{20/20}{Aufbau}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\slideentry {4}{1}{2}{21/21}{Aufbau}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{22}{Library}}\headcommand {\beamer@subsectionpages {20}{21}}
+\headcommand {\slideentry {4}{2}{1}{22/22}{Library}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{23}{Beispiel Programm}}\headcommand {\beamer@subsectionpages {22}{22}}
+\headcommand {\slideentry {4}{3}{1}{23/23}{Beispiel Programm}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\slideentry {4}{3}{2}{24/24}{Beispiel Programm}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {4}{3}{3}{25/25}{Beispiel Programm}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\beamer@partpages {1}{25}}
+\headcommand {\beamer@subsectionpages {23}{25}}
+\headcommand {\beamer@sectionpages {20}{25}}
+\headcommand {\beamer@documentpages {25}}
+\headcommand {\def \inserttotalframenumber {23}}

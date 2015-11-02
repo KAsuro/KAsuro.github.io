@@ -1,0 +1,106 @@
+ \documentclass[t]{beamer}
+%\documentclass[c]{beamer}
+\listfiles
+
+\mode<presentation>
+{
+%  \usetheme[english,titlepage0]{KIT}
+%  \usetheme[titlepage0]{KIT}
+% \usetheme[usefoot]{KIT}
+ \usetheme[deutsch]{KIT}
+
+%%  \usefonttheme{structurebold}
+
+  \setbeamercovered{transparent}
+
+  %\setbeamertemplate{enumerate items}[circle]
+  \setbeamertemplate{enumerate items}[ball]
+}
+
+\usepackage[ngerman]{babel}
+\date{02. Nov 2015}
+%\DateText
+
+%\newlength{\Ku}
+%\setlength{\Ku}{1.43375pt}
+
+\usepackage[utf8]{inputenc}
+\usepackage[TS1,T1]{fontenc}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+\usepackage{graphics}
+
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{listings}
+
+\usepackage{dot2texi}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes}
+ \usetikzlibrary{matrix}
+\usetikzlibrary{automata}
+
+\usepackage{wrapfig}
+
+
+%\usenavigationsymbols
+%\usenavigationsymbols[sfHhdb]
+%\usenavigationsymbols[sfhHb]
+
+\title{Projektvortrag Schnupperstudium}
+\subtitle{KAsuro}
+
+\author{Andreas Pfeil, Oliver Neumann}
+
+%\institute[\raisebox{-3.5mm}{
+%	\includegraphics[height=\KITlogoht]{Bilder/Zlogo}}]
+%  {INSTITUTS- FAKULTÄTS-, ABTEILUNGSNAME}
+%\logo{\includegraphics[width=\KITlogowd]{Bilder/Zlogo}}
+
+\TitleImage[width=\titleimagewd]{Bilder/asuro_full}
+
+\newcommand{\currentsection}{}
+\let\oldsection\section
+\renewcommand{\section}[1]{\oldsection{#1}\renewcommand{\currentsection}{#1}}
+
+
+\newcommand{\currentsubsection}{}
+\let\oldsubsection\subsection
+\renewcommand{\subsection}[1]{\oldsubsection{#1}\renewcommand{\currentsubsection}{#1}}
+
+
+\newcommand{\xn}{\visible<2->{$\times$}}
+\newcommand{\xj}{\visible<2->{$\checkmark$}}
+\newcommand{\rd}[1]{\textcolor{red}{#1}}
+\newcommand{\gn}[1]{\textcolor{green}{#1}}
+\newcommand{\bl}[1]{\textcolor{blue}{#1}}
+
+\newcommand{\hiddencell}[2]{\action<#1->{#2}}
+
+\newcommand{\link}[2][blue]{\underline{\textcolor{#1}{#2}}} 	% \link{www.example.org} zeigt www.example.org in blau und unterstrichen
+\renewcommand{\emph}[1]{\textit{\textcolor{blue}{#1}}}			% \emph{Test} zeigt Text in blau und kursiv
+\newcommand{\warn}[1]{\textcolor{red}{#1}}			% \warn{Warning} zeigt Warning in rot und kursiv
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\input{Sektionen/Einleitung.tex} 
+\input{Sektionen/Projekt.tex}
+\input{Sektionen/C-Einfuehrung.tex}
+\input{Sektionen/Asuro.tex}
+
+\begin{frame}[c]
+	\centering \Huge Ein- und Verteilung
+\end{frame}
+
+\begin{frame}[c]
+	\centering \Huge Los geht's mit Vorführung! :)
+\end{frame}
+
+\end{document}

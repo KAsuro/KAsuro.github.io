@@ -1,0 +1,20 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {ngerman}
+\beamer@sectionintoc {1}{Einleitung}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Begr\IeC {\"u}\IeC {\ss }ung}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{Hinweis!}{4}{0}{1}
+\beamer@sectionintoc {2}{Projekt}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Wochenplan}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{M\IeC {\"o}gliche Projekte}{7}{0}{2}
+\beamer@sectionintoc {3}{C-Einf\IeC {\"u}hrung}{8}{0}{3}
+\beamer@subsectionintoc {3}{1}{Verst\IeC {\"a}ndnis}{8}{0}{3}
+\beamer@subsectionintoc {3}{2}{Funktionen}{9}{0}{3}
+\beamer@subsectionintoc {3}{3}{Variablen}{11}{0}{3}
+\beamer@subsectionintoc {3}{4}{Operationen}{13}{0}{3}
+\beamer@subsectionintoc {3}{5}{Verzweigungen}{14}{0}{3}
+\beamer@subsectionintoc {3}{6}{Schleifen}{16}{0}{3}
+\beamer@subsectionintoc {3}{7}{Compiler Stuff ... -.-}{18}{0}{3}
+\beamer@sectionintoc {4}{Asuro}{20}{0}{4}
+\beamer@subsectionintoc {4}{1}{Aufbau}{20}{0}{4}
+\beamer@subsectionintoc {4}{2}{Library}{22}{0}{4}
+\beamer@subsectionintoc {4}{3}{Beispiel Programm}{23}{0}{4}

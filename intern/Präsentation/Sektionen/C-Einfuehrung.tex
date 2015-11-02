@@ -1,0 +1,150 @@
+\section{C-Einführung}
+\subsection{Verständnis}
+\begin{frame}
+	\frametitle{\currentsection}
+	\framesubtitle{\currentsubsection}
+	\begin{block}<1->{Was ist ein Programm?}
+		\begin{itemize}
+			\item C Datei als Beschreibung des Programms
+			\item Compilieren der C Datei mit Compiler zu Assembler
+			\item Assembler stellen 1:1 die Befehle der CPU dar
+			\item Übersetzen von Assembler nach Hex
+			\item Aufspielen der Hex über Flasher
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+
+\subsection{Funktionen}
+\begin{frame}
+	\frametitle{\currentsection}
+	\framesubtitle{\currentsubsection}
+	\begin{block}<1->{Was ist eine Funktion?}
+		\begin{itemize}
+			\item Strukturieren Programme
+			\item Beschreiben den Einstiegspunkt (main Funktion)
+			\item Sind ähnlich zu mathematischen Funktionen
+			\item Können Werte zurückliefern aber auch Werte benötigen
+		\end{itemize}
+	\end{block}
+\end{frame}
+\begin{frame}
+	\frametitle{\currentsection}
+	\framesubtitle{\currentsubsection}
+  \begin{block}<1->{Beispiele}
+  	\lstinputlisting[language=C]{Code/Examples/function.c}
+  \end{block}
+\end{frame}
+
+
+\subsection{Variablen}
+\begin{frame}
+	\frametitle{\currentsection}
+	\framesubtitle{\currentsubsection}
+	\begin{block}<1->{Wie merke ich mir Dinge?}
+		\begin{itemize}
+			\item Variablen sind dafür gedacht Werte zu speichern.
+			\item Variablen haben IMMER einen Typ und einen Namen!
+			\item Es gibt unter anderem folgende Typen:
+			\begin{itemize}
+				\item int, long
+				\item float, double
+				\item char
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+\end{frame}
+\begin{frame}
+	\frametitle{\currentsection}
+	\framesubtitle{\currentsubsection}
+	\begin{block}<1->{Beispiele}
+		\lstinputlisting[language=C]{Code/Examples/variable.c}
+	\end{block}
+\end{frame}
+
+\subsection{Operationen}
+\begin{frame}
+	\frametitle{\currentsection}
+	\framesubtitle{\currentsubsection}
+	\begin{block}<1->{Beispiele}
+		\lstinputlisting[language=C]{Code/Examples/operations.c}
+	\end{block}
+\end{frame}
+
+
+\subsection{Verzweigungen}
+\begin{frame}
+	\frametitle{\currentsection}
+	\framesubtitle{\currentsubsection}
+	\begin{block}<1->{Wie entscheide Dinge?}
+		\begin{itemize}
+			\item Um Entscheidungen zu treffen gibt es
+			\begin{itemize}
+				\item if ([COND]) else
+				\item switch
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+\end{frame}
+\begin{frame}
+	\frametitle{\currentsection}
+	\framesubtitle{\currentsubsection}
+	\begin{block}<1->{Beispiele}
+		\lstinputlisting[language=C]{Code/Examples/branch.c}
+	\end{block}
+\end{frame}
+
+
+\subsection{Schleifen}
+\begin{frame}
+	\frametitle{\currentsection}
+	\framesubtitle{\currentsubsection}
+	\begin{block}<1->{Wie wiederhole ich Dinge?}
+		\begin{itemize}
+			\item Schleifen vermeiden redundanten Code
+			\begin{itemize}
+				\item z.B. Eine Liste durchgehen, ...
+			\end{itemize}
+			\item In C gibt es
+			\begin{itemize}
+				\item while ([COND])
+				\item for (i=0; [COND]; i++)
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+\end{frame}
+\begin{frame}
+	\frametitle{\currentsection}
+	\framesubtitle{\currentsubsection}
+	\begin{block}<1->{Beispiele}
+		\lstinputlisting[language=C]{Code/Examples/loops.c}
+	\end{block}
+\end{frame}
+
+
+\subsection{Compiler Stuff ... -.-}
+\begin{frame}
+	\frametitle{\currentsection}
+	\framesubtitle{\currentsubsection}
+	\begin{block}<1->{Includes}
+		\begin{itemize}
+			\item Funktionen/Dateien einbinden
+			\begin{itemize}
+				\item \#include ''somefoo.h''
+				\item \#include <asuro.h>
+				\item \#include <stdio.h>
+				\item \#include <Math.h>
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+	\begin{block}<2->{Defines}
+		\begin{itemize}
+			\item Variablen definieren
+			\begin{itemize}
+				\item \#define PI 3.14159265359
+				\item \#define OUT "Some output"
+				\item \#define SWITCH(X) 1<<X
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+\end{frame}
