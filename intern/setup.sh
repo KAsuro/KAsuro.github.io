@@ -6,8 +6,8 @@ sudo apt-get install geany gcc-avr avr-libc avrdude git
 echo "clone needed repositories in ./Git or pull newest change, if repos already exist"
 mkdir -p Git
 cd Git/
-if cd KAsuroParticipants; then git pull; else git clone https://github.com/KAsuro/KAsuroParticipants; fi
-if cd KAsuro.github.io; then git pull; else git clone https://github.com/KAsuro/KAsuro.github.io; fi
+if cd KAsuroParticipants; then git pull && cd ..; else git clone https://github.com/KAsuro/KAsuroParticipants; fi
+if cd KAsuro.github.io; then git pull && cd ..; else git clone https://github.com/KAsuro/KAsuro.github.io; fi
 
 echo "copy con_flash (flasher tool) to /bin/ and make it executable, needs sudo"
 sudo cp KAsuroParticipants/con_flash /bin/
