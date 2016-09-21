@@ -1,21 +1,22 @@
 #!/usr/bin/env bash
 
-echo "install packages, will need sudo:"
+echo "install packages, needs sudo"
 sudo apt-get install geany gcc-avr avr-libc avrdude git
 
-echo "clone needed repositories in ~/Git"
-cd ~/
-mkdir Git
+echo "clone needed repositories in ./Git or pull newest change, if repos already exist"
+mkdir -p Git
 cd Git/
-git clone https://github.com/KAsuro/KAsuroParticipants
-git clone https://github.com/KAsuro/KAsuro.github.io
+if cd KAsuroParticipants; then git pull; else git clone https://github.com/KAsuro/KAsuroParticipants; fi
+if cd KAsuro.github.io; then git pull; else git clone https://github.com/KAsuro/KAsuro.github.io; fi
 
-echo "install con_flash (flasher tool), requires sudo because /bin does"
+echo "copy con_flash (flasher tool) to /bin/ and make it executable, needs sudo"
 sudo cp KAsuroParticipants/con_flash /bin/
+sudo chmod +x /bin/con_flash
 
 echo "try chown on /dev/ttyUSB0 (gets reset after releasing the device or reboot)"
 sudo chown $USER:$USER /dev/ttyUSB0
-# use permission.sh to fix the permissions if needed
+# use KAsuroParticipants/permission.sh to fix the permissions if needed
 
 echo "configure geany"
-cp KAsuroParticipants/conf_geany ~/.config/geany
+mkdir -p ~/.config/
+cp -r KAsuroParticipants/conf_geany ~/.config/geany
